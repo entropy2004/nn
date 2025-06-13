@@ -5,7 +5,7 @@
 import os
 import torch
 import torch.nn as nn
-import torch.utils.data as Data
+import torch.utils.data as Data  # 导入PyTorch的数据工具模块Data
 import torchvision               # 包含常用的数据集和模型
 import torch.nn.functional as F  # 包含常用的函数式API，如ReLU, softmax等
 import numpy as np
